@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="https://kit.fontawesome.com/3117b56b4e.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="img/bitmapalura.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <title>Encriptador | Desencriptador</title>
+</head>
+<body>
+	<canvas id="canv"></canvas>
+  <header>
+    <img src="img/Vector@2x.svg" alt="" class="aluraLogo">
+    <span class="hashtag">#challengeonecodificador5</span>
+  </header>
+  
+  <main id="contenedor">
+    <section id="izquierda">
+			<div class="izquierda-contenido">
+				<textarea placeholder="Ingresa el texto que quieras encriptar o desencriptar"></textarea>
+				<p><i class="fa-solid fa-arrow-right"></i> Este programa solo admite caracteres alfabéticos en mayúsculas o minúsculas.</p>
+				<div class="mainbttns">
+					<button id="btn-d"><i class="fa-solid fa-unlock"></i> Desencriptar</button>
+					<button id="btn-e"><i class="fa-solid fa-lock"></i> Encriptar</button>
+				</div>
+			</div>
+    </section>
+    
+    <section id="derecha">
+      <img src="img/icon.svg" alt="" id ="vector" class="vector">
+      <img src="img/cat.svg" alt="" id="vectorCat" class="vectorCat">
+      <p id="msnTexto" class="msnTexto">¡Hey, mándame un mensaje!</p>
+      <p id="catTexto" class="catTexto">¡Miaw! Esperando tu mensaje</p>
+      <div class="resultadoOculto oculto" id="resultadoOculto">
+        <div class="resultado">
+          <i class="fa-solid fa-heart fa-flip"></i>
+          <h2>¡Muy bien! Tu mensaje es:</h2>
+          <p class="showResult" id="showResult"></p>
+        </div>
+        <div class="copia">
+          <div class="info">
+            <p><i class="fa-solid fa-arrow-right"></i> Copia el resultado en el campo de texto para desencriptar o ingresa un nuevo texto para encriptar.</p>
+          </div>
+          <div class="boton">
+            <button id="btn-c"><i class="fa-regular fa-clipboard"></i> Copiar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+	<nav class="nav">
+    <h4 class="sm-header">Contacto</h4>
+    <div class="line"></div>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="https://www.linkedin.com/in/joshua-fr%C3%ADas/" target="_blank" class="nav-link"><i class="fa-brands fa-linkedin-in"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="https://github.com/joshuaFrias95" target="_blank" class="nav-link"><i class="fa-brands fa-github"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="https://www.behance.net/lagrimas_negras" target="_blank" class="nav-link"><i class="fa-brands fa-behance"></i></a>
+      </li>       
+    </ul>
+  </nav>
+  
+  <div class="toast">
+    <div class="toast-content">
+      <i class="fas fa-solid fa-check check"></i>
+      <div class="message">
+        <span class="text text-1">¡Mensaje Copiado con éxito</span>
+        <span class="text text-2">Ahora podemos continuar.</span>
+      </div>
+    </div>
+    <i class="fa-solid fa-xmark close"></i>
+    <div class="progress"></div>
+  </div>
+  
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
