@@ -1,4 +1,4 @@
-# Encriptador-Alura-Oracle-ONE V'3.2
+# Encriptador-Alura-Oracle-ONE
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
@@ -67,14 +67,6 @@ También es posible desencriptar el mismo mensaje y copiarlo al portapapeles del
   `Add-on Script: Agrego función toggle para modo oscuro`
   
   ![](https://media.giphy.com/media/TCBJw2ZLdeOg2bDyLh/giphy.gif)
-
-## Authors
-
-- [@joshuaFrias95](https://github.com/joshuaFrias95/)
-
-
-[![behance](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](about:blank)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joshua-fr%C3%ADas/)
 
 ![](https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif)
 
